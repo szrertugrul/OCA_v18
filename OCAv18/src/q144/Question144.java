@@ -14,4 +14,4 @@ public class Question144 {  //public class Greeting
 //Which set of commnds prints Hello Duke in the console?
 //		
 //		Answer: javac Greeting.java
-//		        java Greeting Duke
+//		       		 java Greeting Duke

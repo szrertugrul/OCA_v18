@@ -1,8 +1,6 @@
 package q143;
 
-public class Fieldint { //Public class Fieldinit
-	
-	
+public class Fieldint {
 	char c;
 	boolean b;
 	float f;
@@ -15,7 +13,6 @@ public class Fieldint { //Public class Fieldinit
 		Fieldint f=new Fieldint();
 		f.printAll();
 	}
-
 }
 
 
