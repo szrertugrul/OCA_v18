@@ -14,7 +14,7 @@
 //		 E.It can run on any platform that has the Java Runtime Environment and Java Compiler
 //		 
 //		 
-//		 Answer: D
+//		 Answer: C
 //		 
 	
 

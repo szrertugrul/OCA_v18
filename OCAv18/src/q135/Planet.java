@@ -1,7 +1,5 @@
 package q135;
 
-import java.sql.SQLOutput;
-
 class Planet {
 	public String name;
 	public int moons;
@@ -10,30 +8,18 @@ class Planet {
 		this.name = name;
 		this.moons = moons;
 	}
-//	public String toString(){  //toString methodu override yaparsak planet i yazdirabiliriz
-//		return name+moons;
-//	}
-}
-
-public class Question135 {
-
-
-		
 		public static void main(String[] args) {
 			Planet[] planets = {
 					new Planet ("Mercury", 0),
 					new Planet ("Venus", 0),
 					new Planet ("Earth", 1),
 					new Planet ("Mars", 2),
-							
-			};
-			
+					};
 			System.out.println(planets);
 			System.out.println(planets[2].name);
 		    System.out.println(planets[2].moons);
-
 		}
-		
+}	
 		/*
 		 
 		 What is the output?  answer B
@@ -61,9 +47,11 @@ public class Question135 {
 		 
 		 */
 
-	}
+//public String toString(){  //toString methodu override yaparsak planet i yazdirabiliriz
+//	return name+moons;
+//}
 
-//Answer:  C
+//Answer:  B
 	
 //	Earth
   //      1

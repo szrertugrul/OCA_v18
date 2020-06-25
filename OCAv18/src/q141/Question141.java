@@ -1,25 +1,40 @@
 package q141;
 
 public class Question141 {
+  public static void main(String[] args) {
+  String names [] = {"Thomas", "Peter", "Joseph"};
+  String pwd [] = new String[3];
+  int idx = 0;
+  try{
+      for(String n : names){
+          pwd[idx] = n.substring(2,6);
+          System.out.println(pwd[idx]); // if it's outside of block "omas" is not printed
+          idx++;
+      }
+  }
+  catch (Exception e){
+      System.out.println("Invalid Name");
+  }
+}
 	
-	public static void main(String[] args) {
-        String names [] = {"Thomas", "Peter", "Joseph"};
-        String pwd [] = new String[3];
-        int idx = 0;
-        try{
-            for(String n : names){
-                pwd[idx] = n.substring(2,6);  //ilk yazilan deger include ama son yazilan deger include olmaz substring de
-                idx++;
-            }
-        }
-        catch (Exception e){
-            System.out.println("Invalid Name");
-            e.printStackTrace(); //con
-        }
-        for (String p : pwd){   //pwd[] = {omas, null, null}
-            System.out.println(p);
-        }
-    }
+//	public static void main(String[] args) {
+//        String names [] = {"Thomas", "Peter", "Joseph"};
+//        String pwd [] = new String[3];
+//        int idx = 0;
+//        try{
+//            for(String n : names){
+//                pwd[idx] = n.substring(2,6);  //ilk yazilan deger include ama son yazilan deger include olmaz substring de
+//                idx++;
+//            }
+//        }
+//        catch (Exception e){
+//            System.out.println("Invalid Name");
+//            e.printStackTrace(); //con
+//        }
+//        for (String p : pwd){   //pwd[] = {omas, null, null}
+//            System.out.println(p);
+//        }
+//    }
     //What is result?
 
 //A

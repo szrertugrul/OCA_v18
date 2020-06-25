@@ -3,7 +3,6 @@ package q142;
 public class Question142 {
 
 	public static void main(String[] args) {
-
 		int wd = 0;
         String days[] = {"sun", "mon", "wed", "sat"};
         for (String s: days){
@@ -21,7 +20,6 @@ public class Question142 {
         }
         System.out.println(wd);
     }
-
 }
 /*
 * What is the result?
