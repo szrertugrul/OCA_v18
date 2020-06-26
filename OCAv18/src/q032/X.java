@@ -1,6 +1,6 @@
 package q032;
 
- class X {
+ public class X {
 	int i;
 	static int j;
 	public static void main(String[] args) {

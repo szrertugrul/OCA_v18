@@ -7,7 +7,7 @@ class X{
 			throw new IOException();
 		}
 	}
-public class Test {
+ class Test {
 	public static void main(String[] args) throws Exception {
 		X xobj = new X();
 		xobj.printFileContent();		

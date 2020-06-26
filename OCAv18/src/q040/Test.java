@@ -13,6 +13,9 @@ public class Test {
 		/* code goes here */
 		return keys; 														
 		// 3. return type should be int array:    static int[] findMax (int [] numbers)	;{
+		if (condition) {
+			System.out.println();
+		}
 		}
 }
 

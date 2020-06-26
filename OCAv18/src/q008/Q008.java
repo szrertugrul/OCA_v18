@@ -1,6 +1,6 @@
 package q008;
 
-public class Q008 {
+ class Q008 {
 
 	public static void main(String[] args) {	
 		String [] [] arr = {{"A", "B", "C"}, {"D", "E"}};	
