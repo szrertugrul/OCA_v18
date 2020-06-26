@@ -1,16 +1,13 @@
 package q154;
 import java.util.ArrayList;
 
-
 public class Question154 {
-
-	
 
 	    public static void main(String[] args) {
 	        ArrayList myList = new ArrayList();
 	        String[] myArray;
 	        try{
-	            while(true){                  //infinite doner. Memoriden kaynaklanan mainde bir hata olusur. Memoryoverflow da hata yani.
+	            while(true){                  //infinite loop. Memoriden kaynaklanan mainde bir hata olusur. Memoryoverflow da hata yani.
 	                myList.add("My String");
 //	                System.out.println("While loop");
 	            }
@@ -22,6 +19,7 @@ public class Question154 {
 	        System.out.println("Ready to use");
 	    }
 	    //Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	    // it's not an exception so it can't be caught
 
 	}
 	/*

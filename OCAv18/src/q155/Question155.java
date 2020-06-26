@@ -1,10 +1,7 @@
 package q155;
 public class Question155 {
 
-
     public static void main(String[] args) {
-
-
         int wd = 0;
         String days[] = {"sun", "mon", "wed", "sat"};
         for (String s: days){
@@ -21,7 +18,6 @@ public class Question155 {
         }
         System.out.println(wd);
     }
-
 }
 /*
 * What is the result?

@@ -1,25 +1,16 @@
 package q153;
-public class Question153 {
 
-		
-		class Fieldint{
-			char c;
+public class FieldInit {
+			Character c;
 			boolean b;
 			float f;
 			void printAll() {
-				System.out.println("c= "+c);//c=
+				System.out.println("c= "+c);//c= null - wrapper Boolean class accepts null
 				System.out.println("b= "+b);//b=false
 				System.out.println("f= "+f);//f=0.0
-			}
-			
-		}
-
-		public class Q147 {
-			
-			
+			}		
 			public static void main(String[] args) {
-				Fieldint f=new Fieldint();
+				FieldInit f=new FieldInit();
 				f.printAll();
 			}
-
-		}}
+		}

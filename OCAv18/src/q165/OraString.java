@@ -12,8 +12,8 @@ public class OraString {
 String s1="Moon";
 OraString s2=new OraString("Moon");
 
-System.out.println(s2); // q165.OraString@7852e922
-System.out.println(s2.s); // Moon
+//System.out.println(s2); // q165.OraString@7852e922
+//System.out.println(s2.s); // Moon
 
 if ((s1=="Moon")&&(s2.equals("Moon"))) { // true && false ==> false
 	System.out.println("A");

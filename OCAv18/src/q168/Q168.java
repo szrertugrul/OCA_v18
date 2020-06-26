@@ -9,19 +9,14 @@ public class Q168 {
 		try {
 			for (String n:names) {
 				pwd[idx]=n.substring(2,6);
-				idx++;
-				
+				idx++;		
 			}
-		
 		}
 		catch (Exception e) {
 			System.out.println("Invalid name");
 		}for (String p:pwd) {
-			System.out.println(p);
-			
-			
+			System.out.println(p);	
 		}
-
 	}
 }
 
